@@ -1,0 +1,70 @@
+/* debug */
+main {
+    background-color: red;
+}
+
+.card{
+    background-color: blue;
+}
+
+footer {
+    height: 50px;
+    background-color: blueviolet;
+}
+/* /debug */
+
+
+/* common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Nerko One', cursive;
+}
+
+main, footer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* contenitore principale */
+
+.container {
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #ADD8E6;
+}
+
+h1 {
+    padding: 20px 0;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align:center;
+    color: white;
+}
+
+/* main */
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+}
