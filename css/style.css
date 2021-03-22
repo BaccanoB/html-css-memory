@@ -41,15 +41,41 @@ main, footer {
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-color: white;
+    text-align: center;
 }
 
+.text {
+    position: absolute;
+    bottom: 5px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.card:hover {
+    background-size: 80%;
+    background-position: 60% 30%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card:hover .title {
+    display: block;
+}
+
+.title {  
+    display: none;
+}
+
+#tractor:hover {
+    background-image: url(../img/noun_Tractor_3134797.png);
+    color: rgb(245, 179, 57);
+}
 
 
 /* contenitore principale */
 
 .container {
     width: 70%;
-    height: 1000px;
     margin: 0 auto;
     background-color: #ADD8E6;
 }
@@ -72,22 +98,43 @@ main::after {
 
 .sixth {
     background-image: url(../img/noun_air_balloon_3134741.png);
-    background-size: contain;
-    background-position: center;
+    background-size: 80%;
+    background-position: 60% 30%;
     background-repeat: no-repeat;
     position: relative;
-}
-
-.text {
-    position: absolute;
-    bottom: 5px;
-    left: 20px;
-    font-size: 25px;
     color: #E61986;
 }
+
+.third:hover {
+    background-image: url(../img/noun_Tram_3134750.png);
+    color: rgb(247, 155, 122);
+}
+
+.fourth:hover {
+    background-image: url(../img/noun_Submarine_3134738.png);
+    color: rgb(83, 83, 235);
+}
+
+.fifth:hover {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    color: rgb(180, 107, 231);
+}
+
+
+.eighth:hover {
+    background-image:url(../img/noun_Bicycle_3134821.png);
+    color: rgb(147, 236, 13);
+}
+
 /* footer */
 
 footer {
     margin-top: 20px;
     text-align: center;
 }
+
+
+
+
+
+
