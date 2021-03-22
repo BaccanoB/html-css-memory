@@ -1,16 +1,16 @@
 /* debug */
-main {
+/* main {
     background-color: red;
-}
+} */
 
-.card{
+/* .card{
     background-color: blue;
-}
+} */
 
-footer {
+/* footer {
     height: 50px;
     background-color: blueviolet;
-}
+} */
 /* /debug */
 
 
@@ -31,6 +31,19 @@ main, footer {
     width: 60%;
     margin: 0 auto;
 }
+
+.card {
+    width: 23%;
+    height: 170px;
+    border-radius: 10px;
+    margin: 2% 2% 0 0;
+    float: left;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: white;
+}
+
+
 
 /* contenitore principale */
 
@@ -57,14 +70,24 @@ main::after {
     clear: both;
 }
 
-.card {
-    width: 150px;
-    height: 160px;
-    border-radius: 10px;
+.sixth {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
+.text {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 25px;
+    color: #E61986;
+}
 /* footer */
 
 footer {
     margin-top: 20px;
+    text-align: center;
 }
